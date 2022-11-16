@@ -22,6 +22,21 @@ header {
   padding: 1rem;
 }
 
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.movie {
+  background-color: var(--secondary-color);
+  margin: 1rem;
+  width: 300px;
+}
+
+.movie img {
+  width: 100%;
+}
+
 .search {
   background-color: transparent;
   border: 2px solid var(--primary-color);
@@ -30,4 +45,13 @@ header {
   font-family: inherit;
   font-size: 1rem;
   padding: 0.5rem 1rem;
+}
+
+.search::placeholder {
+  color: #7378c5;
+}
+
+.search:focus {
+  background-color: var(--primary-color);
+  outline: none;
 }
