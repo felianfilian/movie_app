@@ -29,8 +29,11 @@ main {
 
 .movie {
   background-color: var(--secondary-color);
+  border-radius: 3px;
   box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
   margin: 1rem;
+  overflow: hidden;
+  position: relative;
   width: 300px;
 }
 
